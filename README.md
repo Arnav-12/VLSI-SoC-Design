@@ -41,3 +41,12 @@ The RTL2GDS flow, transforming a high-level Register Transfer Level (RTL) design
 ## OpenLANE Design Flow
 ![S8](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/S8.png)
 
+## Day-1 Labs
+![S8.1](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/S8.1.png)
+![S9](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/S9.png)
+![S10](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/S10.png)
+![S11](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/S11.png)
+![S12](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/S12.png)
+![S13](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/S13.png)
+
+
