@@ -49,4 +49,33 @@ The RTL2GDS flow, transforming a high-level Register Transfer Level (RTL) design
 ![S12](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/S12.png)
 ![S13](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/S13.png)
 
+# Sky130 Day-2
+## Utilization Factor and width,height core of the die
+
+### Utilization Factor
+
+The utilization factor in chip design refers to the percentage of the core area of a die that is occupied by standard cells, macros, and other functional elements. It is a critical parameter in the physical design process, particularly during the place and route stages, as it influences the density, performance, and manufacturability of the integrated circuit (IC). A higher utilization factor means more of the core area is being used for active circuitry, potentially leading to more compact designs. However, it must be balanced carefully to avoid routing congestion and thermal issues. Typically, the utilization factor is kept below 80% to allow sufficient space for routing and to manage heat dissipation effectively.
+
+### Core Width and Height of the Die
+The core width and height refer to the dimensions of the central part of the die where the active circuitry is placed. This core area excludes the peripheral regions used for I/O pads and other non-core functions. The dimensions of the core are determined by the requirements of the design, including the number of standard cells, macros, and other components that need to be placed within the core. The core size is a key factor in determining the overall size of the die and directly influences the cost and performance of the final IC. Efficiently optimizing the core's width and height is crucial to achieving a balance between the chip's functionality, power consumption, and manufacturing yield.
+![S14](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S14.png)
+## Locations of Preplaced cells
+**Locations of Preplaced Cells** refer to the specific, fixed positions within the chip's layout where certain standard cells, macros, or IP blocks are placed early in the physical design process. These cells are typically large or critical components, such as memory blocks, PLLs (Phase-Locked Loops), or other essential IPs, whose locations are predetermined based on design requirements, such as performance, signal integrity, or routing efficiency.
+
+Preplacing these cells ensures that the most important components are optimally positioned to meet design constraints, such as minimizing signal delays or managing power distribution. Once preplaced, the rest of the standard cells are arranged around these fixed components during the Place and Route (P&R) process. This approach helps to streamline routing, reduce congestion, and ensure the overall efficiency of the chip's layout.
+![S15](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S15.png)
+## Logical Cell Placement Blockage
+![S16](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S16.png)
+## Amount of Switching Current
+![S17](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S17.png)
+## Day-2 Labs
+![S18](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S18.png)
+
+![S19](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S19.png)
+
+![S20](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S20.png)
+
+![S21](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S21.png)
+
+
 
