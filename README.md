@@ -77,5 +77,51 @@ Preplacing these cells ensures that the most important components are optimally 
 
 ![S21](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S21.png)
 
+# Sky130 Day-3
+## Designing Library Cells
+### SPICE deck creation
+A SPICE deck is a text-based input file used by SPICE (Simulation Program with Integrated Circuit Emphasis), a popular tool for simulating and analyzing analog and mixed-signal circuits.
+![S22](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S22.png)
+### SPICE Waveforms
+![S23](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S23.png)
+![S24](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S24.png)
+### Steps for CMOS Fabrication
+
+***1. Create Active Region***
+Isolation (LOCOS or STI): The active regions, where the transistors will be formed, are defined. Isolation techniques like Local Oxidation of Silicon (LOCOS) or Shallow Trench Isolation (STI) are used to isolate these regions from each other.
+
+
+***2. Formation of N-Well and P-Well***
+Well Formation: The silicon wafer is doped to create regions with different electrical properties, forming n-wells for p-channel transistors and p-wells for n-channel transistors. This is typically done through ion implantation followed by annealing to activate the dopants.
+
+
+***3. Formation of Gate Terminal***
+Gate Oxide Growth: A thin layer of silicon dioxide is grown on the surface of the wafer to form the gate dielectric.
+Polysilicon Deposition: A layer of polysilicon is deposited over the entire wafer, which will serve as the gate electrode.
+Gate Patterning: Photolithography and etching are used to pattern the polysilicon layer, defining the gate structure.
+
+
+***4. Lightly Doped Drain (LDD) Formation***
+LDD Implantation: Light doping is introduced into the areas adjacent to the gate to form lightly doped drain (LDD) regions. This reduces electric field strength at the drain, minimizing hot carrier effects and improving transistor reliability.
+
+
+![S25](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S25.png)
+![S26](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S26.png)
+![S27](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S27.png)
+![S28](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S28.png)
+## Day-3 Labs
+![S29](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S29.png)
+![S30](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S30.png)
+![S31](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S31.png)
+![S32](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S32.png)
+![S33](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S33.png)
+![S34](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S34.png)
+![S35](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S35.png)
+![S36](https://github.com/Arnav-12/VLSI-SoC-Design/blob/main/Screenshots%20vsd/S36.png)
+
+
+
+
+
 
 
